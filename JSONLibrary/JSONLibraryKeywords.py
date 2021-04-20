@@ -4,7 +4,8 @@ import os.path
 from robot.api import logger
 from robot.api.deco import keyword
 from jsonpath_rw import Index, Fields
-from jsonpath_rw_ext import parse
+#from jsonpath_rw_ext import parse
+from jsonpath_ng.ext import parse
 from .version import VERSION
 
 __author__ = 'Traitanit Huangsri'
